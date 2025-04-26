@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raju's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="home-section">
+        <div class="content">
+            <h1>Hi, I'm Raju</h1>
+            <p>Frontend Developer | Web Enthusiast</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <img src="images/hb.jpg" alt="Raju's Image" class="profile-image">
+            <div class="about-content">
+                <h2>About Me</h2>
+                <p>I am currently studying B.Tech 3rd year with a passion for frontend development. I love creating beautiful and functional web applications.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills-section">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill"><img src="images/html.jpeg" alt="HTML"><p>HTML</p></div>
+            <div class="skill"><img src="images/css.jpeg" alt="CSS"><p>CSS</p></div>
+            <div class="skill"><img src="images/javascript.jpeg" alt="JavaScript"><p>JavaScript</p></div>
+            <div class="skill"><img src="images/python.jpeg" alt="Python"><p>Python</p></div>
+            <div class="skill"><img src="images/sql.jpeg" alt="SQL"><p>SQL</p></div>
+            <div class="skill"><img src="images/jquery.png" alt="jQuery"><p>jQuery</p></div>
+            <div class="skill"><img src="images/bootstrap.jpeg" alt="Bootstrap"><p>Bootstrap</p></div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <img src="images/calculator.jpeg" alt="Calculator Project">
+                <h3>Calculator</h3>
+                <p>A simple yet powerful calculator built using HTML, CSS, and JavaScript. It supports basic arithmetic operations and has a user-friendly interface.</p>
+                <a href="calculator.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/portfolio.png" alt="Portfolio Project">
+                <h3>Portfolio Website</h3>
+                <p>My personal portfolio website showcasing my skills, projects, and contact information. Designed with a modern and responsive UI.</p>
+                <a href="index.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/clock.png" alt="Clock Project">
+                <h3>Clock</h3>
+                <p>A digital clock that displays the current time in real-time. Built using JavaScript, it features an elegant and minimal design.</p>
+                <a href="clock.html" target="_blank">View Project</a>
+            </div>
+            <div class="project">
+                <img src="images/stopwatch.png" alt="Stopwatch Project">
+                <h3>Stopwatch</h3>
+                <p>A functional stopwatch with start, stop, and reset features. It helps in tracking time efficiently for various tasks.</p>
+                <a href="stopwatch.html" target="_blank">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="certificates-section">
+        <h2>My Certificates</h2>
+        <div class="certificates-container">
+            <div class="certificate">
+                <img src="images/certificate1.jpeg" alt="Certificate 1">
+                <h3>Web Development</h3>
+                <p>Certified in Web Development, covering HTML, CSS, and JavaScript.</p>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate2.jpeg" alt="Certificate 2">
+                <h3>JavaScript Mastery</h3>
+                <p>Completed advanced JavaScript course with hands-on projects.</p>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate3.jpeg" alt="Certificate 3">
+                <h3>Python Programming</h3>
+                <p>Certified in Python programming and problem-solving techniques.</p>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate4.jpeg" alt="Certificate 4">
+                <h3>SQL & Databases</h3>
+                <p>Certification in SQL and database management concepts.</p>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate5.jpeg" alt="Certificate 5">
+                <h3>React Development</h3>
+                <p>Completed training on React.js for building modern web applications.</p>
+            </div>
+            <div class="certificate">
+                <img src="images/certificate6.jpeg" alt="Certificate 6">
+                <h3>Full-Stack Development</h3>
+                <p>Certified in full-stack web development with MERN stack.</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out for any collaboration or queries!</p>
+        <div class="contact-container">
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p><strong>Email:</strong> puchagingalaraju@gmail.com</p>
+                <p><strong>Phone:</strong> 9502441017</p>
+                <p><strong>Location:</strong> Your City, India</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
